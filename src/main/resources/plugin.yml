@@ -1,0 +1,9 @@
+name: PlateouPluginHide
+version: 1.0
+main: org.idroom.PlateouPluginHide
+api-version: 1.16
+description: A plugin that hides the /pl command unless the player has permission.
+permissions:
+  plateoupluginhide.view:
+    description: Allows viewing the plugin list.
+    default: op
